@@ -69,8 +69,8 @@ export default function Home() {
         <img src={kuromi} className="kuromi-sitting" alt="kuromi"></img>
         <h1 className="page-title">Home Page</h1>
         <br />
-        <div id="waktu">
-          {formatAMPM()}
+        <div id="time">
+          {time}
         </div>
         <h1 className="ucapan">Hi Sayang!</h1>
         <p className="isiucapan">{greeting}</p>
